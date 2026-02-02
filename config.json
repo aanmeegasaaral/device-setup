@@ -52,9 +52,15 @@
             "App Market": "com.heytap.market",
             "GPay": "com.google.android.apps.nbu.paisa.user",
             "Calendar": "com.google.android.calendar",
-            "PhonePe": "com.phonepe.app"
+            "PhonePe": "com.phonepe.app",
+            "Android Auto": "com.google.android.projection.gearhead",
+            "Feedback": "com.oplus.logkit",
+            "ORoaming": "com.redteamobile.roaming",
         },
         "disable": {
+            "Android Switch": "com.google.android.apps.restore",
+            "Calculator": "com.oneplus.calculator",
+            "Files by Google": "com.google.android.apps.nbu.files",
             "Always-On Display": "com.oplus.aod",
             "ORoaming": "com.redteamobile.roaming",
             "Android Accessibility Suite": "com.google.android.marvin.talkback",
