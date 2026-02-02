@@ -119,6 +119,64 @@
             "Gmail": "com.google.android.gm"
         }
     },
+    "demo_object": {
+        "Normal String": "simply dummy 🙏 text of the printing and typesetting",
+        "Numbers": 45819,
+        "Simple Array": [
+            "VALUE1",
+            "VALUE2",
+            "VALUE3",
+            "VALUE4"
+        ],
+        "Nested Array": [
+            "VALUE1",
+            [
+                "N-VAL1",
+                "N-VAL2",
+                [
+                    "N-3-VAL1",
+                    "N-3-VAL2"
+                ]
+            ],
+            "VALUE3"
+        ],
+        "Simple Object": {
+            "Simple String": "simply dummy 🙏 text of the printing and typesetting In the nesting",
+            "Numbers": 64930,
+            "Level 1 Array": [
+                "V1",
+                "V2",
+                "V3",
+                "V4"
+            ],
+            "Level 1 Nested Array": [
+                "V1",
+                [
+                    "V2-1",
+                    "V2-2",
+                    "V2-3",
+                    [
+                        "V2-4-1",
+                        "V2-4-2",
+                        "V2-4-3"
+                    ]
+                ],
+                "V3"
+            ],
+            "Level 1 Object": {
+                "Simple String": "simply dummy text of the printing and typesetting In the nesting",
+                "Numbers": 64930,
+                "Nested OBJ": {
+                    "L1 OBJ String": "simply dummy text of the printing and typesetting In the nesting",
+                    "L1 OBJ INT": 64930,
+                    "Nested - 2 OBJ": {
+                        "L2 OBJ String": "simply dummy text of the printing and typesetting In the nesting",
+                        "L2 OBJ INT": 64930
+                    }
+                }
+            }
+        }
+    },
     "config": {
         "webhook_path": "remote-ctrl",
         "private-dns": "pi.sva.run",
