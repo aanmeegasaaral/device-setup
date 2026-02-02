@@ -123,7 +123,25 @@
         "webhook_path": "remote-ctrl",
         "private-dns": "pi.sva.run",
         "reaction-loop": 6,
-        "onair-optimize-wait": 5
+        "onair-optimize-wait": 5,
+        "lang": {
+            "connected": {
+                "False": "⛓️‍💥 Disconnected",
+                "True": "🔗 Connected"
+            },
+            "enabled": {
+                "False": "❌ Disabled",
+                "True": "✅ Enabled"
+            },
+            "onoff": {
+                "True": "🟢 On",
+                "False": "🔴 Off"
+            },
+            "yes": {
+                "True": "✅",
+                "False": "❌"
+            }
+        }
     },
     "tg": {
         "CID": "5398937802",
