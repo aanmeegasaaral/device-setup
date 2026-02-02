@@ -26,7 +26,7 @@
             "Speedtest": "org.zwanoo.android.speedtest",
             "Gmail": "com.google.android.gm",
             "Chrome": "com.android.chrome",
-            "YouTube": "com.google.android.youtube",
+            "YouTube": "com.google.android.youtube"
         },
         "uninstall": {
             "Cross-device service broker": "com.microsoftsdk.crossdeviceservicebroker",
