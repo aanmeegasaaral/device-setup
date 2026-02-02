@@ -1,0 +1,155 @@
+{
+    "adb": {
+        "hacks": [
+            "adb shell appops set com.carrierz.flutter_hbb PROJECT_MEDIA allow",
+            "adb shell appops set com.arlosoft.macrodroid PROJECT_MEDIA allow",
+            "adb shell appops set com.vaultmicro.camerafi.live PROJECT_MEDIA allow"
+        ],
+        "permission": {
+            "com.arlosoft.macrodroid": [
+                "WRITE_SECURE_SETTINGS",
+                "CHANGE_CONFIGURATION",
+                "DUMP",
+                "READ_LOGS"
+            ],
+            "com.arlosoft.macrodroid.helper": [
+                "WRITE_SECURE_SETTINGS"
+            ]
+        }
+    },
+    "downloads": {
+        "url": "https://aanmeegasaaral.github.io/device-setup/"
+    },
+    "apps": {
+        "kill": {
+            "OpenSpeedTest Server": "com.openspeedtest.server",
+            "Speedtest": "org.zwanoo.android.speedtest",
+            "Gmail": "com.google.android.gm",
+            "Chrome": "com.android.chrome",
+            "YouTube": "com.google.android.youtube",
+        },
+        "uninstall": {
+            "Cross-device service broker": "com.microsoftsdk.crossdeviceservicebroker",
+            "Device Integration Service": "com.microsoft.deviceintegrationservice",
+            "Facebook": "com.facebook.katana",
+            "Fitbit": "com.fitbit.FitbitMobile",
+            "LinkedIn": "com.linkedin.android",
+            "Link to Windows": "com.microsoft.appmanager",
+            "Meta App Installer": "com.facebook.system",
+            "Meta App Manager": "com.facebook.appmanager",
+            "Meta Services": "com.facebook.services",
+            "Netflix": "com.netflix.mediaclient",
+            "Google One": "com.google.android.apps.subscriptions.red",
+            "Google TV": "com.google.android.videos",
+            "Google Wallet": "com.google.android.apps.walletnfcrel",
+            "OnePlus Membership": "com.oneplus.membership",
+            "Maps": "com.google.android.apps.maps",
+            "YouTube Music": "com.google.android.apps.youtube.music",
+            "Meet": "com.google.android.apps.tachyon",
+            "Drive": "com.google.android.apps.docs",
+            "HeyTap Cloud": "com.heytap.cloud",
+            "OnePlus Store": "com.oneplus.mall",
+            "App Market": "com.heytap.market",
+            "GPay": "com.google.android.apps.nbu.paisa.user",
+            "Calendar": "com.google.android.calendar",
+            "PhonePe": "com.phonepe.app"
+        },
+        "disable": {
+            "Always-On Display": "com.oplus.aod",
+            "ORoaming": "com.redteamobile.roaming",
+            "Android Accessibility Suite": "com.google.android.marvin.talkback",
+            "Android Auto": "com.google.android.projection.gearhead",
+            "Breeno Scan": "com.coloros.ocrscanner",
+            "Bluetooth MIDI Service": "com.android.bluetoothmidiservice",
+            "DeviceAsWebcam": "com.android.DeviceAsWebcam",
+            "Digital Wellbeing": "com.google.android.apps.wellbeing",
+            "Find Hub": "com.google.android.apps.adm",
+            "Gemini": "com.google.android.apps.bard",
+            "Google Play Services for AR": "com.google.ar.core",
+            "Help & feedback": "com.coloros.operationManual",
+            "Home": "com.google.android.apps.chromecast.app",
+            "Internet": "com.heytap.browser",
+            "Kids mode": "com.coloros.childrenspace",
+            "Lens": "com.google.ar.lens",
+            "Lock Screen Magazine": "com.heytap.pictorial",
+            "Mind Space": "com.oplus.aimemory",
+            "NFC Service": "com.android.nfc",
+            "Notes": "com.oneplus.note",
+            "OnePlus Share": "com.oneplus.oshare",
+            "Personal Safety": "com.google.android.apps.safetyhub",
+            "Photos": "com.google.android.apps.photos",
+            "Print Service Recommendation Service": "com.google.android.printservice.recommendation",
+            "Print Spooler": "com.android.printspooler",
+            "Quick Apps": "com.nearme.instant.platform",
+            "Quick Connect": "com.heytap.accessory",
+            "Recorder": "com.oneplus.soundrecorder",
+            "SecureElementApplication": "com.android.se",
+            "Shelf": "com.coloros.assistantscreen",
+            "Simple mode": "com.coloros.scenemode",
+            "Smart Sidebar": "com.coloros.smartsidebar",
+            "Speech Recognition and Synthesis from Google": "com.google.android.tts",
+            "Switch Access": "com.google.android.accessibility.switchaccess",
+            "System Cloner": "com.coloros.systemclone",
+            "System Tracing": "com.android.traceur",
+            "Tags": "com.android.apps.tag",
+            "Theme Store": "com.oplus.themestore",
+            "Translate": "com.coloros.translate",
+            "Translate Service": "com.coloros.translate.engine",
+            "Weather Services": "com.coloros.weather.service",
+            "Zen Space": "com.oneplus.brickmode",
+            "AI Call Assistant": "com.oplus.aicall",
+            "AI Service Engine": "com.oplus.aiunit",
+            "App Cloner": "com.oplus.multiapp",
+            "Cross-Device File Management": "com.oplus.dfs",
+            "Diagnostics": "com.oplus.postmanservice",
+            "Feedback": "com.oplus.logkit",
+            "Games": "com.oplus.games",
+            "Identification of Unknown Numbers": "com.ted.number",
+            "Intelligent Services": "com.oplus.deepthinker",
+            "Omoji": "com.oplus.omoji",
+            "On-device personalization services": "com.google.android.ondevicepersonalization.services",
+            "Remote PC Control": "com.oplus.remotecontrol",
+            "Default Print Service": "com.android.bips",
+            "Hotword Enrollment (OK Google)": "com.android.hotwordenrollment.okgoogle",
+            "Hotword Enrollment (X Google)": "com.android.hotwordenrollment.xgoogle",
+            "Google app": "com.google.android.googlequicksearchbox"
+        },
+        "enable": {
+            "Screencast": "com.oplus.cast",
+            "Gmail": "com.google.android.gm"
+        }
+    },
+    "config": {
+        "webhook_path": "remote-ctrl",
+        "private-dns": "pi.sva.run",
+        "reaction-loop": 6,
+        "onair-optimize-wait": 5
+    },
+    "tg": {
+        "CID": "5398937802",
+        "ASM-LK1": {
+            "id": "8564333938",
+            "key": "AAH0oUbiNNe8Bqv9iXvQVYBPhJxODe7u7-g"
+        },
+        "ASM-LK2": {
+            "id": "",
+            "key": ""
+        },
+        "ASM-LK3": {
+            "id": "",
+            "key": ""
+        },
+        "ASM-LK4": {
+            "id": "",
+            "key": ""
+        },
+        "ASM-LK5": {
+            "id": "",
+            "key": ""
+        },
+        "ASM-LK6": {
+            "id": "",
+            "key": ""
+        }
+    }
+}
