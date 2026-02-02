@@ -55,7 +55,7 @@
             "PhonePe": "com.phonepe.app",
             "Android Auto": "com.google.android.projection.gearhead",
             "Feedback": "com.oplus.logkit",
-            "ORoaming": "com.redteamobile.roaming",
+            "ORoaming": "com.redteamobile.roaming"
         },
         "disable": {
             "Android Switch": "com.google.android.apps.restore",
