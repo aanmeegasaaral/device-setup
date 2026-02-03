@@ -10,6 +10,7 @@
                 "WRITE_SECURE_SETTINGS",
                 "CHANGE_CONFIGURATION",
                 "DUMP",
+                "SET_VOLUME_KEY_LONG_PRESS_LISTENER",
                 "READ_LOGS"
             ],
             "com.arlosoft.macrodroid.helper": [
@@ -183,6 +184,74 @@
             }
         }
     },
+    "device": {
+        "ASM-LK1": {
+            "IMEI": [
+                869066071494711,
+                869066071494703
+            ],
+            "serial": "3C15BQ002JF00000",
+            "tg": {
+                "id": "8564333938",
+                "key": "AAH0oUbiNNe8Bqv9iXvQVYBPhJxODe7u7-g"
+            }
+        },
+        "ASM-LK2": {
+            "IMEI": [
+                869066071011838,
+                869066071011820
+            ],
+            "serial": "3C15BH0000200000",
+            "tg": {
+                "id": "8564333938",
+                "key": "AAH0oUbiNNe8Bqv9iXvQVYBPhJxODe7u7-g"
+            }
+        },
+        "ASM-LK3": {
+            "IMEI": [
+                869066071219779,
+                869066071219761
+            ],
+            "serial": "3C15BK0036K00000",
+            "tg": {
+                "id": "8564333938",
+                "key": "AAH0oUbiNNe8Bqv9iXvQVYBPhJxODe7u7-g"
+            }
+        },
+        "ASM-LK4": {
+            "IMEI": [
+                2222,
+                2222
+            ],
+            "serial": "XXXX",
+            "tg": {
+                "id": "8564333938",
+                "key": "AAH0oUbiNNe8Bqv9iXvQVYBPhJxODe7u7-g"
+            }
+        },
+        "ASM-LK5": {
+            "IMEI": [
+                862027068120773,
+                862027068120765
+            ],
+            "serial": "8T9X49KBGYCA754D",
+            "tg": {
+                "id": "8564333938",
+                "key": "AAH0oUbiNNe8Bqv9iXvQVYBPhJxODe7u7-g"
+            }
+        },
+        "ASM-LK6": {
+            "IMEI": [
+                222,
+                222
+            ],
+            "serial": "XXXX",
+            "tg": {
+                "id": "8564333938",
+                "key": "AAH0oUbiNNe8Bqv9iXvQVYBPhJxODe7u7-g"
+            }
+        }
+    },
     "config": {
         "webhook_path": "remote-ctrl",
         "private-dns": "pi.sva.run",
@@ -205,33 +274,13 @@
                 "True": "✅",
                 "False": "❌"
             }
-        }
-    },
-    "tg": {
-        "CID": "5398937802",
-        "ASM-LK1": {
-            "id": "8564333938",
-            "key": "AAH0oUbiNNe8Bqv9iXvQVYBPhJxODe7u7-g"
         },
-        "ASM-LK2": {
-            "id": "",
-            "key": ""
+        "hotspot": {
+            "name": "AS-Media",
+            "password": "9962200896"
         },
-        "ASM-LK3": {
-            "id": "",
-            "key": ""
-        },
-        "ASM-LK4": {
-            "id": "",
-            "key": ""
-        },
-        "ASM-LK5": {
-            "id": "",
-            "key": ""
-        },
-        "ASM-LK6": {
-            "id": "",
-            "key": ""
+        "tg": {
+            "CID": "5398937802"
         }
     }
 }
