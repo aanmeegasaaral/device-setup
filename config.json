@@ -253,6 +253,24 @@
             }
         }
     },
+    "lang": {
+        "connected": {
+            "False": "⛓️‍💥 Disconnected",
+            "True": "🔗 Connected"
+        },
+        "enabled": {
+            "False": "❌ Disabled",
+            "True": "✅ Enabled"
+        },
+        "onoff": {
+            "True": "🟢 On",
+            "False": "🔴 Off"
+        },
+        "yes": {
+            "True": "✅",
+            "False": "❌"
+        }
+    },
     "config": {
         "notification": {
             "primary": "telegram",
@@ -263,24 +281,6 @@
         "private-dns": "pi.sva.run",
         "reaction-loop": 6,
         "onair-optimize-wait": 5,
-        "lang": {
-            "connected": {
-                "False": "⛓️‍💥 Disconnected",
-                "True": "🔗 Connected"
-            },
-            "enabled": {
-                "False": "❌ Disabled",
-                "True": "✅ Enabled"
-            },
-            "onoff": {
-                "True": "🟢 On",
-                "False": "🔴 Off"
-            },
-            "yes": {
-                "True": "✅",
-                "False": "❌"
-            }
-        },
         "hotspot": {
             "name": "AS-Media",
             "password": "9962200896"
