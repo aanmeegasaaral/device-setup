@@ -3,7 +3,8 @@
         "hacks": [
             "adb shell appops set com.carrierz.flutter_hbb PROJECT_MEDIA allow",
             "adb shell appops set com.arlosoft.macrodroid PROJECT_MEDIA allow",
-            "adb shell appops set com.vaultmicro.camerafi.live PROJECT_MEDIA allow"
+            "adb shell appops set com.vaultmicro.camerafi.live PROJECT_MEDIA allow",
+            "adb shell settings put global disable_secure_screen_share 1"
         ],
         "permission": {
             "com.arlosoft.macrodroid": [
@@ -253,6 +254,11 @@
         }
     },
     "config": {
+        "notification": {
+            "primary": "telegram",
+            "secondary": "sms"
+        },
+        "default_sms": "9962200896",
         "webhook_path": "remote-ctrl",
         "private-dns": "pi.sva.run",
         "reaction-loop": 6,
