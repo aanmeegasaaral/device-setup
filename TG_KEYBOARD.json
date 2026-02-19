@@ -1,0 +1,39 @@
+{
+    "kb-hotspot": {
+        "name": "Hotspot",
+        "options": "onoff"
+    },
+    "kb-bluetooth": {
+        "name": "Bluetooth",
+        "options": "onoff"
+    },
+    "kb-gps": {
+        "name": "GPS",
+        "options": "onoff"
+    },
+    "kb-screen": {
+        "name": "Screen",
+        "options": "onoff"
+    },
+    "kb-wifi": {
+        "name": "Wifi",
+        "options": {
+            "kb-wifi-on": {
+                "name": "Wifi On",
+                "cmd": "as-wifi-on"
+            },
+            "kb-wifi-off": {
+                "name": "Wifi Off",
+                "cmd": "as-wifi-off"
+            },
+            "kb-wifi-asm2g": {
+                "name": "Connect To ASM 2Ghz",
+                "cmd": "as-wifi-asm2g"
+            },
+            "kb-wifi-asm5g": {
+                "name": "Connect To ASM 5Ghz",
+                "cmd": "as-wifi-asm5g"
+            }
+        }
+    }
+}
