@@ -1,4 +1,8 @@
 {
+    "kb-phoneinfo": {
+        "name": "Phone Info",
+        "cmd": "as-phoneinfo"
+    },
     "kb-hotspot": {
         "name": "Hotspot",
         "options": "onoff"
